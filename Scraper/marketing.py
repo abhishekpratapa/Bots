@@ -95,7 +95,7 @@ class Marketing:
         names_companies = sorted(names_companies)
         the_file.close()
 
-        newBot = bot.BrowserInstance("abhishekpratapa@gmail.com", "AlinaSchroeder#123", "5129831767", bot.Sites.Google)
+        newBot = bot.BrowserInstance("email", "password", "phone", bot.Sites.Google)
         newBot.createUserInstance()
 
         for names in names_companies:
