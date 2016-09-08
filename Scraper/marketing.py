@@ -123,6 +123,6 @@ class Marketing:
         newBot.CloseSession()
 
     def linkedin_person_crawler(self, searchTerm, Limit_terms):
-        newBot = bot.BrowserInstance("abhishekpratapa@gmail.com", "AlinaSchroeder#123", "5129831767", bot.Sites.LinkedIn)
+        newBot = bot.BrowserInstance("email.com", "password#123", "phone", bot.Sites.LinkedIn)
         newBot.search(searchTerm, Limit_terms, True)
         newBot.CloseSession()
